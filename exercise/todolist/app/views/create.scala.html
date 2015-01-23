@@ -1,0 +1,14 @@
+@(createForm: Form[CreateForm])
+
+@import helper._
+
+<h1>タスクの新規作成</h1>
+
+@template {
+  @form(action = routes.Application.create) {
+	@inputText(createForm("title"))
+	@textarea(field = createForm("content"))
+	<input class="btn btn-default" type="submit" value="作成">
+  }
+}
+

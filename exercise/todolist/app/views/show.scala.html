@@ -1,0 +1,19 @@
+@(task: Task)
+
+@import org.joda.time.format.DateTimeFormat
+
+@template {
+<h1>タスク: @{task.title}</h1>
+
+<div>
+  <h4>作成日時:</h4>
+  @{task.mediumDateTime}
+</div>
+
+<h4>詳細: </h4>
+
+<pre>@task.content</pre>
+
+<input type="button" value="一覧に戻る" onclick="location.href='@{routes.Application.tasks}'">
+
+}
