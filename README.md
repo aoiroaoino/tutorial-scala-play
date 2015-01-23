@@ -20,5 +20,5 @@
 
 チュートリアルが終わったら課題にチャレンジしてみましょう！  
 
-- [TODOリストを作ってみよう！](./sample/todolist/README.md)
+- [TODOリストを作ってみよう！](./exercise/todolist/README.md)
 
